@@ -1,0 +1,61 @@
+:root {
+    --oranzse: #F6961D;
+    --szurke: #454545;
+    --sotet: #313131;
+    --nagyonSotet: #242424;
+  }
+  
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th{
+    background-color: #242424;
+    color: var(--oranzse);
+  }
+
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr{
+    color: var(--oranzse);
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--szurke);
+  }
+
+  tr:nth-child(odd){
+    background-color: var(--sotet);
+  }
+
+#omKeresesDiv{
+    width: fit-content;
+    margin: 4mm auto;
+}
+
+#tablediv{
+    max-width: min-content;
+    overflow-y: auto;
+}
+
+body{
+    background-color: var(--nagyonSotet);
+}
+
+button{
+    color: var(--oranzse);
+    background-color: var(--sotet);
+    width: 2cm;
+    height: 8mm;
+}
+
+input{
+    height: 8mm;
+}
